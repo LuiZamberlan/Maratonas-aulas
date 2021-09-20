@@ -1,0 +1,5 @@
+/* Arquivo que vai importar todos os arquivos css;  */
+@import url("reset.css");
+/*Todos os elementos html já são estilizados com definições padrões dos navegadores, por meio do reset.css é retirado essas definições padrões deixando o site com um ar mais profissional.*/
+@import url("header.css");
+@import url("main.css");
