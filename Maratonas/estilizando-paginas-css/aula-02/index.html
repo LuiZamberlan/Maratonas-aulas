@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula-02</title>
+    <style>
+        * {color: green;
+        background-color: black;}
+        /**Mais fraco da hierarquia**/
+        h1 {color: white;}
+        /**Estilizar elementos específicos sobrepõe a estilização do seletor universal**/
+        .CLASS {color: red;}
+        /**Estilização de classes sobrepõe elementos específicos e o seletor universal**/
+        #ID {color: aqua;}
+        /**Estilizar um elemento com identificação sobrepõe todos os outros seletores**/
+    </style>
+</head>
+<body>
+    <h1>Hierarquia dos seletores</h1>
+    <ol>
+        <li>* universal e combinados(+,~,>,...)</li>
+        <li>Tipos de elementos(h1,p,...)</li>
+        <li class="CLASS">Classes(.class)</li>
+        <li id="ID">ID(#id)</li>
+        <li><a href="especificidade.html">Especificidade dos seletores</a></li>
+    </ol>
+</body>
+</html>

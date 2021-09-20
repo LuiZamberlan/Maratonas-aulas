@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula-09</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <!--Parâmetro method é a forma em que as informações do formulário serão enviadas, caso o método seja GET as informações poderão ser visualizadas na url(uma forma não segura) ex: https://site.com/index.html?username=USERTESTE&email=USEREMAILTESTE%40email.com&password=SENHAUSER123&sex=on&age=11. Já usando o método POST ele necessita do parâmetro 'action' e assim executa um redirecionamento para outra página ou servidor.-->
+        <fieldset>
+            <legend>Cadastro de usuários</legend>
+            <!--Tag utilizada para definir título da tag <fieldset>.-->
+            <p>
+                <label for="username">Usuário:</label>
+                <!--A tag <label> vai ler uma informação do cliente(user, pessoa que acessa o site).-->
+                <!--O parâmetro for dentro da tag <label> é utilizado para 'linkar', fazer a conexão do <input> ao <label>.-->
+                <input type="text" id="username" name="username" required>
+                <!--Essa tag serve para especificar como o cliente pode colocar informações, podendo ser modifica de acordo com a informação colocada no parâmetro 'type=""'.-->
+                <!--Required vai fazer com que o preenchimento desse <input> seja obrigatório, para que o formulário não seja enviado sem uma informação necessária.-->
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" id="male" name="sex" required>
+                <label for="male">Mascúlino</label>
+
+                <input type="radio" id="female" name="sex" required>
+                <label for="female">Feminino</label>
+            </p>    
+            <p>
+                <label for="age">Idade:</label>
+                <input type="number" id="age" name="age" required>
+            </p>
+            <p>
+                <button type="submit">Enviar</button>
+                <button type="reset">Restaurar</button>
+            </p>
+
+        </fieldset>
+        <!--Cria uma borda preta na página, também definido por agrupar elementos relacionados em um formulário, um conjunto de campos.-->
+    </form>
+    <!--Criação de formulário com a tag <form> para entrada de informação.-->
+</body>
+</html>
