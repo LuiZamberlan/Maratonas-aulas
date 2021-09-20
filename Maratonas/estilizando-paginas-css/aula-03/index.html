@@ -6,10 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aula-03</title>
     <style>
-        
+       * {
+           padding: 0%;
+           /**Espaçamento interno do nosso texto(conteúdo)**/
+           margin: 0%;
+           /**Espaçamento externo do nosso texto(conteúdo)**/
+       } 
+       #a {
+           border: 5px solid black;
+           padding: 30px;
+       }
+       #b {
+           border: 5px solid black;
+           margin: 30px;
+       }
+       #c {
+           border: 5px solid black;
+           padding: 30px;
+           margin: 30px;
+       }
+       #d {
+           border: 5px solid black;
+           background-color: green;
+           padding-left: 600px;
+           /*Também é possível definir os angulos em que essas propriedades serão usadas*/
+       }
     </style>
 </head>
 <body>
-    <h1>Box model</h1>
+    <h1 id="a">Box model</h1>
+    <h1 id="b">Box model</h1>
+    <h1 id="c">Box model</h1>
+    <h1 id="d">Box model</h1>
 </body>
 </html>
