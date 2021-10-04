@@ -1,0 +1,9 @@
+h1 {
+    color: orangered;
+    font-size: 60px;
+}
+/*Pseudo-classes*/
+h1:hover {
+    color: blue;
+    /*Quando o cliente passar o mouse em cima, as ações aqui descritas serão executadas.*/
+}

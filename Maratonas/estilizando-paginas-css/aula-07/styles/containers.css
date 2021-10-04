@@ -1,0 +1,9 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 56px 0 56px;
+}
+
+#container #buttons select:first-child {
+    margin-right: 12px;
+}

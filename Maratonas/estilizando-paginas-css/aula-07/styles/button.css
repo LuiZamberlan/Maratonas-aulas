@@ -1,7 +1,7 @@
-#btn button {
-    background-color: grey;
+.btn {
+    background-color: orangered;
     color: white;
     border: none;
     padding: 10px 40px;
-    border-radius: 7px;
+    border-radius: 0;
 }
